@@ -1,8 +1,6 @@
 import { defineConfigSchema, getSyncLifecycle } from '@openmrs/esm-framework';
 import { configSchema } from './config-schema';
 import Root from './root.component';
-import { otzPatientChartMeta } from './dashboard.meta';
-import { createDashboardGroup, createDashboardLink } from '@openmrs/esm-patient-common-lib';
 import OTZHomePatientTabs from './views/dashboard/patient-list-tabs/otz-patient-list-tabs.component';
 import { createLeftPanelLink } from './left-panel-link.component';
 import OTZSummaryTiles from './views/dashboard/summary-tiles/otz-summary-tiles.component';
